@@ -1,0 +1,52 @@
+@media (max-width: 320px) {  /* свойство для размера от 1440 пикселей и выше  */
+  .header {
+    width: 100%;
+  }
+  .mains .main {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-left: -20px;
+  }
+  .mains .main h1 {
+    font-size: 38px;
+  }
+  .mains .main .main-img {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: -5px;
+  }
+  .mains .news, .mains .announcements, .mains .news_two {
+    display: block;
+    margin-left: -10px;
+    width: 100%;
+  }
+  .mains .news .announcements {
+    margin-top: 1200px;
+    width: 100%;
+    height: 250px;
+  }
+  .mains #first {
+    margin-top: 650px;
+  }
+  .mains .news .news-article {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .mains .news .announcements .news-article-two {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -15px;
+  }
+  .mains .news_two {
+    margin-top: 650px;
+  }
+  .mains .news_two .news-article, .mains .news_two .news-article_three {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .footer {
+    margin-top: 1000px;
+  }
+}
